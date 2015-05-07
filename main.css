@@ -70,7 +70,7 @@ h1 {
   font-weight: bold;
 }
 
-#head, #body{
+.head, .body{
   float: right;
   padding: 35px 25px 50px 30px;
   color: #ffffff;
@@ -81,37 +81,49 @@ h1 {
 
 
 #date1{
-  color: grey;
+  color: #BEC8CA;
   font-family: Lato, Calibri, Arial, sans-serif;
   font-size: 14.3999996185303px;
+	position: relative;
+	left: 300px;
+	bottom: 400px;
 }
 
 #time1 {
-  color: #68c0e8;
+  color: #68C0E8;
   font-family: Lato, Calibri, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 45px;
+	position: relative;
+	left: 260px;
+	bottom: 390px;
 }
 
-#head {
-  background-color: #68c0e8;
+.head {
+  background-color: #68C0E8;
   width: 646px;
   height: 313px;
 }
 
 #date2{
-  color: grey;
+  color: #BEC8CA;
   font-family: Lato, Calibri, Arial, sans-serif;
   font-size: 14.3999996185303px;
+	position: relative;
+	left: 300px;
+	bottom: 50px;
 }
 
 #time2{
-  color: #2a94c6;
+  color: #2A94C4;
   font-family: Lato, Calibri, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 45px;
+	position: relative;
+	left: 260px;
+	bottom: 50px;
 }
 
-#body{
-  background-color: #2a94c6;
+.body{
+  background-color: #2A94C4;
   width: 646px;
   height: 313px;
 }
@@ -121,21 +133,23 @@ h1 {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #68c0e8;
+  border-right: 10px solid #68C0E8;
   position: relative;
   float: right;
   bottom: 392px;
+	transition: background-color 2s ease;
 }
 .arrow-left2{
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #2a94c6;
+  border-right: 10px solid #2A94C4;
   position: relative;
   float: right;
   left: 10px;
   top: 14px;
+	transition: background-color 2s ease;
 }
 
 p{
@@ -146,7 +160,7 @@ p{
 }
 
 .verticalLine{
-  border-left: thick solid #68c0e8;
+  border-left: thick solid #ABD7F4;
   position: relative;
   left: 417px;
   bottom: 10px;
@@ -166,4 +180,23 @@ aside{
   position: relative;
   left: 340px;
   top: 400px;
+}
+
+#box1{
+	transition: background-color 2s ease;
+}
+
+#box1:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+#box2{
+	transition: background-color 2s ease;
+}
+
+
+#box2:hover {
+	background-color: #fff;
+	cursor: pointer;
 }
