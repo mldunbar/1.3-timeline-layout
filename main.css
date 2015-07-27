@@ -1,0 +1,202 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*start of my code*/
+
+/*{
+  box-sizing: border-box;
+  border: 1px solid red;
+}*/
+
+.high, .low {
+  color: white;
+  margin: auto;
+  border-radius: 12%;
+}
+
+h1 {
+  color: white;
+  border-bottom: 1px solid white;
+  padding:0px 0px 14px 0px;
+  margin: auto;
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-size: 28.000011444092px;
+  font-weight: bold;
+}
+
+.head, .body{
+  float: right;
+  padding: 35px 25px 50px 30px;
+  color: #ffffff;
+  border-radius: 7px;
+  margin: 2px 100px 5px 0px;
+  word-wrap: break-word;
+}
+
+
+#date1{
+  color: #BEC8CA;
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-size: 14.3999996185303px;
+	position: relative;
+	left: 300px;
+	bottom: 400px;
+}
+
+#time1 {
+  color: #68C0E8;
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-size: 45px;
+	position: relative;
+	left: 260px;
+	bottom: 390px;
+}
+
+.head {
+  background-color: #68C0E8;
+  width: 646px;
+  height: 313px;
+}
+
+#date2{
+  color: #BEC8CA;
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-size: 14.3999996185303px;
+	position: relative;
+	left: 300px;
+	bottom: 50px;
+}
+
+#time2{
+  color: #2A94C4;
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-size: 45px;
+	position: relative;
+	left: 260px;
+	bottom: 50px;
+}
+
+.body{
+  background-color: #2A94C4;
+  width: 646px;
+  height: 313px;
+}
+
+.arrow-left1{
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #68C0E8;
+  position: relative;
+  float: right;
+  bottom: 392px;
+	transition: background-color 2s ease;
+}
+.arrow-left2{
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #2A94C4;
+  position: relative;
+  float: right;
+  left: 10px;
+  top: 14px;
+	transition: background-color 2s ease;
+}
+
+p{
+  padding: 10px 0px 0px 0px;
+  font-family: Lato, Calibri, Arial, sans-serif;
+  font-size: 19.2000007629395px;
+  font-weight: 300;
+}
+
+.verticalLine{
+  border-left: thick solid #ABD7F4;
+  position: relative;
+  left: 417px;
+  bottom: 10px;
+}
+
+aside{
+  float: left;
+  left: 100px;
+}
+
+.mobile{
+  position: relative;
+  left: 395px;
+}
+
+.computer {
+  position: relative;
+  left: 340px;
+  top: 400px;
+}
+
+#box1{
+	transition: background-color 2s ease;
+}
+
+#box1:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
+
+#box2{
+	transition: background-color 2s ease;
+}
+
+
+#box2:hover {
+	background-color: #fff;
+	cursor: pointer;
+}
